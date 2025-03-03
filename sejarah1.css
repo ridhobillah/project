@@ -1,0 +1,161 @@
+header{
+    padding: 5px 30px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 50px;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+    transition: .5s;
+}
+
+ul li a:hover{
+    color: rgb(6, 6, 29);
+}
+
+.logo{
+    color: blue;
+}
+
+.home{
+    padding: 100px;
+    display: flex;
+    margin-left: 18%;
+    margin-right: 16%;
+    align-items: center;
+    color: white;
+    
+}
+
+.home h1{
+    color: black;
+}
+
+.home a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 50px;
+}
+
+.home p{
+    color: black;
+}
+
+span{
+    color: blue;
+}
+
+.images{  
+    width: 350px;
+    height: 300px;
+    border-radius: 70px 10px 70px 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px blue;
+    transition: .5s;
+    margin-top: 5%
+}
+
+main:hover{
+    box-shadow: none;
+}
+
+.sistem{
+    padding: 70px;
+    background-color: transparent;
+    margin-top: 6%;
+}
+
+.sistem2{
+    padding: 70px;
+    background-color: transparent;
+}
+
+.sistem3{
+    padding: 70px;
+    background-color: transparent;
+}
+
+.sistem4{
+    padding: 70px;
+    background-color: transparent;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body{
+    background-color: #ffffff;
+    animation: fadeIn 2s forwards;
+}
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+
+.artikel h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.tanggal {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.sejarah{
+    display: flex;
+    gap: 20px;
+}
+
+.gambar {
+    width: 400px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.isi-artikel {
+    font-size: 30;
+    text-align: justify;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+footer{
+    padding: 5px;
+    text-align: center;
+    color: blue;
+}
